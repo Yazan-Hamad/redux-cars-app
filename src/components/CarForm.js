@@ -8,7 +8,7 @@ function CarForm() {
   const name = useSelector(({form})=>{
     return form.name;
   });
-  const onNameChanged = (event) =>{
+  const onNameChange = (event) =>{
     dispatch(changeName(event.target.value));
   };
 
@@ -22,7 +22,7 @@ function CarForm() {
           <input
           className="input is-expanded"
           value={name}
-          onChange={onNameChanged}
+          onChange={onNameChange}
           />
         </div>
       </div>
