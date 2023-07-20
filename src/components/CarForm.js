@@ -23,7 +23,7 @@ function CarForm() {
   };
 
   return (
-    <div className="car-form-panel">
+    <div className="car-form panel">
       <h4 className="subtitle is-3">Add Car</h4>
       <form onSubmit={onFormSubmit}>
         <div className="field-group">
